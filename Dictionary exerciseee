@@ -1,0 +1,21 @@
+sentences = [
+    "The quick brown fox jumps over the lazy dog.",
+    "A quick brown dog jumps over a lazy cat.",
+    "The dog and the cat are friends.",
+    "The fox and the dog are not friends."
+]{
+    'quick': [0, 1],
+    'brown': [0, 1],
+    'fox': [0, 3],
+    'jumps': [0, 1],
+    'lazy': [0, 1],
+    'dog': [0, 1, 2, 3],
+    'cat': [1, 2],
+    'friends': [2],
+    'not': [3]
+Stop_Words = the, and, is, in, a, are, not, over
+re
+"The quick brown fox jumps over the lazy dog.",
+"A quick brown dog jumps over a lazy cat.",
+"The dog and the cat are friends.",
+"The fox and the dog are not friends."
